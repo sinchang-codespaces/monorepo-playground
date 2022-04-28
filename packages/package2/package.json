@@ -1,0 +1,16 @@
+{
+  "name": "@sinchang/package2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "sinchang",
+  "license": "MIT",
+  "dependencies": {
+    "@sinchang/package1": "workspace:^1.0.0"
+  }
+}

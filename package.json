@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "change": "beachball change",
+    "check": "beachball check",
+    "beachball:publish": "beachball publish"
+  },
+  "author": "sinchang",
+  "license": "MIT",
+  "devDependencies": {
+    "beachball": "2.21.1",
+    "typescript": "4.6.3"
+  }
+}
